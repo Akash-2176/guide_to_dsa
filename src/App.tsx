@@ -1510,7 +1510,7 @@ const DATA = [
 ];
 
 export default function DsaTracker60() {
-  const [days, setDays] = useState(DATA);
+  const [days] = useState(DATA);
   const [selected, setSelected] = useState(1);
   const [completed, setCompleted] = useState(() => {
     // load from localStorage
